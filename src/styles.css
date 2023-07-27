@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border:1px solid black;
+}
+.nav-item,.social-link{
+  display:flex;
+  list-style-type: none;
+  justify-content:center;
+  padding: 0;
+}
+.nav-item >li,.social-link >li{
+  padding:0 0.3rem;
+}
+.body >h1,.body >h2,.body p{
+  text-align: center;
+}
+.footer{
+  border:1px solid black;
+}
+.product-list{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  margin: 3.5rem;
+}
+.card >img,.detail >img{
+width:250px;
+}
+
+
